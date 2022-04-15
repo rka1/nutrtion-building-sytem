@@ -33,6 +33,7 @@ public class FoodGroup implements Nutrition {
 	public void addFood(Food food, double serving) {
 		
 		String foodName = food.getName();
+		string username=user.name;
 		
 		if (foodDetail.containsKey(foodName)) {
 			if (foodPortion.get(foodName) + serving==0) {
